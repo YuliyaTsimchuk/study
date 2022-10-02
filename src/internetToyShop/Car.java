@@ -64,7 +64,6 @@ public class Car extends ToyObject {
         hash = 29 * hash + (this.isCarpet ? 1 : 0);
         hash = 29 * hash + this.carId;
         return hash;
-        
     }
 
 
