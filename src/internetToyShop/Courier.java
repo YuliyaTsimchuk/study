@@ -51,7 +51,6 @@ public class Courier extends Worker implements ITransport, IStorehouse {
     public void setTransportCosts(int transportCosts) {
         this.transportCosts = transportCosts;
         setTransportWithCompany();
-
     }
 
     public float getTransportWithCompany() {
