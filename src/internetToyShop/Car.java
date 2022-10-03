@@ -56,12 +56,11 @@ public class Car extends ToyObject {
 
         } else
             return false;
-
     }
 
     @Override
     public int hashCode() {
-        int hash = 7;
+        int hash = 5;
         hash = 29 * hash + (this.isCarpet ? 1 : 0);
         hash = 29 * hash + this.carId;
         return hash;
