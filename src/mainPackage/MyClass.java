@@ -52,7 +52,7 @@ public class MyClass {
         System.out.println(shop.toString());
 
         System.out.println(" ");
-        
+
         WriteToFile writer = new WriteToFile();
         writer.serializeShop(shop);
 
