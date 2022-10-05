@@ -54,9 +54,7 @@ public abstract class Worker implements IDelivery {
     public String address(String a) {
         String addr = new String();
         addr = a;
-        
         return addr;
-
     }
 
     @Override
