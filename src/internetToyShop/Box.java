@@ -10,8 +10,7 @@ public class Box implements IManufacture {
         this.material = "Картон";
         this.materialCost = 10;
         this.typeOfBox = "Универсальная упаковка";
-        this.boxCost = 0;
-        
+        this.boxCost = 0;  
     }
 
     public Box(Box obj) {
