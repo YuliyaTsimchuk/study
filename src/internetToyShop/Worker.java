@@ -68,7 +68,7 @@ public abstract class Worker implements IDelivery {
         String str = new String();
         str = "Имя: " + name + " Фамилия: " + surname + " Зарплата: " + salary + " руб. Категория: " + category + " Адрес обслуживания: " + address;
         return str;
-        
+
     }
 
 }
