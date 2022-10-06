@@ -10,11 +10,9 @@ public class Box implements IManufacture {
         this.material = "Картон";
         this.materialCost = 10;
         this.typeOfBox = "Универсальная упаковка";
-<<<<<<< HEAD
         this.boxCost = 0;
-=======
         this.boxCost = 0;  
->>>>>>> 927f0f709af817505ab8a155a112be339dc05ad4
+
     }
 
     public Box(Box obj) {
